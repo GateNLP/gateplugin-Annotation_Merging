@@ -182,7 +182,7 @@ public class AnnotationMergingMain extends AbstractLanguageAnalyser implements
         StringBuffer annNames = new StringBuffer();
         for(int i = 0; i < annIndex.length; ++i) {
           if(i > 0) annNames.append("/");
-          annNames.append(annsArray[Integer.valueOf(annIndex[i])]);
+          annNames.append(annsArray[Integer.parseInt(annIndex[i])]);
         }
         featM.put("annotators", annNames.toString());
         try {
