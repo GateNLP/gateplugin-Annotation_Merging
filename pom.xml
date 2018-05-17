@@ -50,7 +50,7 @@
 			you depend on at compile time should use the provided scope -->
 	</dependencies>
 
-	<name>Annotation Mergning</name>
+	<name>Annotation Merging</name>
 	<description>Tools for handling annotations from multiple human annotators.</description>
 	<url>https://gate.ac.uk/userguide/sec:misc-creole:merging</url>
 </project>
